@@ -1,0 +1,152 @@
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+
+.navbar-container {
+  width: 90%;
+  max-width: 1120px;
+  min-height: 56px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* Brand */
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.brand-logo {
+  width: 21px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #a63de0;
+  color: #ffffff;
+
+  font-size: 9px;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.brand-name {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+.brand-name span {
+  color: #e8177b;
+}
+
+/* Navigation links */
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.navbar-links a {
+  color: #374151;
+  text-decoration: none;
+  font-size: 11px;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: #e8177b;
+}
+
+/* Buttons */
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.navbar-actions button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+}
+
+.signin-btn {
+  background: transparent;
+  color: #1f2937;
+}
+
+.signin-btn:hover {
+  color: #e8177b;
+}
+
+.signup-btn {
+  background-color: #e8177b;
+  color: #ffffff;
+  padding: 7px 17px;
+  border-radius: 25px;
+  transition: background-color 0.2s ease;
+}
+
+.signup-btn:hover {
+  background-color: #c81068;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+  .navbar-container {
+    width: 92%;
+    flex-wrap: wrap;
+    padding: 12px 0;
+  }
+
+  .navbar-links {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 8px 0;
+  }
+
+  .navbar-actions {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar-container {
+    gap: 12px;
+  }
+
+  .brand-name {
+    font-size: 12px;
+  }
+
+  .navbar-actions {
+    gap: 8px;
+  }
+
+  .navbar-links {
+    gap: 12px;
+  }
+}

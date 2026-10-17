@@ -1,0 +1,232 @@
+.stack-section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e8edf4;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+.stack-section h2 {
+  margin: 0 0 5px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.stack-count {
+  margin: 0 0 12px;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.empty-stack {
+  padding: 20px 10px;
+  border: 1px dashed #e2e8f0;
+  border-radius: 9px;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.stack-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stack-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 9px;
+  border: 1px solid #e8edf4;
+  border-radius: 8px;
+}
+
+.stack-item-info {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+}
+
+.stack-icon {
+  font-size: 21px;
+}
+
+.stack-item h3 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.stack-item p {
+  margin: 3px 0 0;
+  font-size: 10px;
+  color: #94a3b8;
+}
+
+.remove-item-btn {
+  border: none;
+  background: transparent;
+  color: #94a3b8;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.remove-item-btn:hover {
+  color: #ef4444;
+}
+
+.remove-all-btn {
+  width: 100%;
+  margin-top: 16px;
+  padding: 9px;
+  background: #fff;
+  border: 1px solid #fecaca;
+  border-radius: 7px;
+  color: #dc2626;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.remove-all-btn:hover {
+  background: #fef2f2;
+}
+
+.stack-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stack-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.stack-icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.stack-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.stack-section {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e8edf4;
+  border-radius: 12px;
+}
+
+.stack-section h2 {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.stack-count {
+  margin: 0 0 12px;
+  font-size: 12px;
+  color: #94a3b8;
+}
+
+.empty-stack {
+  padding: 18px 8px;
+  border: 1px dashed #e2e8f0;
+  border-radius: 8px;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.stack-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stack-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px;
+  border: 1px solid #e8edf4;
+  border-radius: 8px;
+}
+
+.stack-item-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.stack-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.stack-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.stack-item h3 {
+  margin: 0;
+  font-size: 12px;
+  color: #111827;
+}
+
+.stack-item p {
+  margin: 3px 0 0;
+  font-size: 10px;
+  color: #94a3b8;
+}
+
+.remove-item-btn {
+  border: none;
+  background: transparent;
+  color: #94a3b8;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.remove-item-btn:hover {
+  color: #ef4444;
+}
+
+.remove-all-btn, .clear-button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 9px;
+  background: white;
+  border: 1px solid #fecaca;
+  border-radius: 7px;
+  color: #dc2626;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.remove-all-btn:hover {
+  background: #fef2f2;
+}
